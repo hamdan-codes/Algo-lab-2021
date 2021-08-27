@@ -24,15 +24,15 @@ void i_o_from_file() {
 }
 
 
-void towerOfHanoi(int n, char s, char h, char d) {
+void towerOfHanoi(int n, char* s, char* h, char* d) {
 
 	if (n == 1) {
-		pf("Move %d from %c to %c\n", n, s, d);
+		pf("Move disk %d from %s to %s\n", n, s, d);
 		return;
 	}
 
 	towerOfHanoi(n - 1, s, d, h);
-	pf("Move %d from %c to %c\n", n, s, d);
+	pf("Move disk %d from %s to %s\n", n, s, d);
 	towerOfHanoi(n - 1, h, s, d);
 
 }
@@ -52,7 +52,17 @@ int main() {
 	int n;
 	sf(n);
 
-	towerOfHanoi(n, 'S', 'H', 'D');
+	time_t start, end;
+	double time;
+
+
+	start = clock();
+	towerOfHanoi(n, "STRT", "HLPR", "DEST");
+	end = clock();
+
+	time = (end - start) * 1.0 / CLOCKS_PER_SEC;
+
+	pf("\nTime: %f\n", time);
 
 
 
