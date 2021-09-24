@@ -44,6 +44,10 @@
   Lab 8 Questions: <br><br>
   <img src="https://github.com/hamdan-codes/Algo-lab-2021/blob/main/Lab%208/qss.PNG?raw=true" width="800px"/><br>
 </h2>
+<h2>
+  Lab 9 Questions: <br><br>
+  <img src="https://github.com/hamdan-codes/Algo-lab-2021/blob/main/Lab%209/qss.PNG?raw=true" width="800px"/><br>
+</h2>
 
 
 
