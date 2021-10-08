@@ -53,6 +53,10 @@
   Lab 10 Questions: <br><br>
   <img src="https://github.com/hamdan-codes/Algo-lab-2021/blob/main/Lab%2010/qss.PNG?raw=true" width="800px"/><br>
 </h2>
+<h2>
+  Lab 11 Questions: <br><br>
+  <img src="https://github.com/hamdan-codes/Algo-lab-2021/blob/main/Lab%2011/qss.PNG?raw=true" width="800px"/><br>
+</h2>
 
 
 
